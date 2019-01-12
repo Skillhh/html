@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link type="text/css" rel="stylesheet" href="/css/style.css">
+  <title>Inicio</title>
+</head>
+
+<body>
+  <script src="./js/style.js" charset="utf-8"></script>
+
+  <!-- /* navegador*/ -->
+  <nav class="navegacion">
+    <span class="lista"><strong>tecnoauge</strong></span>
+    <ul>
+      <li><a class="secundario" href="index.html">Inicio</a></li>
+      <li><a class="secundario" href="#nosotros">Nosotros</a></li>
+      <li><a class="secundario" href="#servicio">Servicios</a></li>
+      <li><a class="active secundario" href="#contactanos">Contáctanos</a></li>
+    </ul>
+  </nav>
+  <!-- Encabezado con logo y nombre empresarial -->
+  <header id="Logo" class="logo" onmouseover="nColor(Logo)" onmouseout="vColor(Logo)">
+    <div id="nombre-empresa" class="nombre-sitio">
+      <h1>tecnología en auge</h1>
+    </div>
+  </header>
+  <!-- Contenedor Principal -->
+  <main class="contenedor">
+    <article class="contenedor-1">
+      <!-- Nosotros -->
+      <div id="nosotros" onmouseover="maxImg(nosotros)" onmouseout="minImg(nosotros)">
+        <h1 id="titulo">nosotros</h1>
+        <p>
+          <img id="imagen" class="" src="https://image.freepik.com/vector-gratis/fondo-circular-elementos-marketing_23-2147748404.jpg" alt="historia">
+        </p>
+        <p id="mensaje">
+          Tecnología en auge cuenta con un personal técnico con más de 10 años de experiencia<br>en el campo de la informática y soporte técnico.
+        </p>
+        <div class="boton">
+          <a href="nosotros.html">más información</a>
+        </div>
+      </div>
+      <!-- Contáctanos -->
+    </article>
+    <article class="logo-contactanos small">
+      <div id="contactanos" class="info-contactanos" onmouseover="newColor(contactanos)" onmouseout="oldColor(contactanos)">
+        <h1 id="titulo_2">contactanos</h1>
+        <div class="boton">
+          <a href="contactanos.html">más información</a>
+        </div>
+      </div>
+    </article>
+    <!-- Servicios -->
+    <aside id="servicio" class="contenedor-2">
+      <h2>Servicios</h2>
+      <!-- Servicio ensamble -->
+      <div class="servicios">
+        <div id="ensamble" class="servicio-1" onmouseover="serMostrar1(ensamble)" onmouseout="serOcultar1(ensamble)">
+          <div>
+            <h3 id="t1">Ensamble</h3>
+            <p id="m1">
+              Asesoramiento de acuerdo<br>sus necesidades.
+            </p>
+          </div>
+        </div>
+        <!-- Servicio reparacion -->
+        <div id="reparacion" class="servicio-2" onmouseover="serMostrar2(reparacion)" onmouseout="serOcultar2(reparacion)">
+          <div>
+            <h3 id="t2">Reparación</h3>
+            <p id="m2">
+              Diagnostico Gratuito<br>personalizado o remoto.
+            </p>
+          </div>
+        </div>
+        <!-- Servico Configuracion -->
+        <div id="configuracion" class="servicio-3" onmouseover="serMostrar3(configuracion)" onmouseout="serOcultar3(configuracion)">
+          <div>
+            <h3 id="t3">Configuración</h3>
+            <p id="m3">
+              Instlación software<br>(Sistemas operativos<br>y aplicaciones).
+            </p>
+          </div>
+        </div>
+      </div>
+    </aside>
+  </main>
+  <!-- Piede de Página -->
+  <footer class="contenedor-3">
+    <!-- disqus comments -->
+    <div class="disqus">
+      <div id="disqus_thread"></div>
+      <script>
+        /**
+         *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+         *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+        /*
+        var disqus_config = function () {
+        this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+        this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+        };
+        */
+        (function() { // DON'T EDIT BELOW THIS LINE
+          var d = document,
+            s = d.createElement('script');
+          s.src = 'https://https-www-facebook-com-tecnoauge-1.disqus.com/embed.js';
+          s.setAttribute('data-timestamp', +new Date());
+          (d.head || d.body).appendChild(s);
+        })();
+      </script>
+      <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    </div>
+    <!-- Seguir en Twitter -->
+    <div class="redes-sociales">
+      <a href="https://twitter.com/GiovannyOrtegon?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @GiovannyOrtegon</a>
+      <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    </div>
+    <!-- Derechos de Autor -->
+    <p>
+      Made by <a href="https://twitter.com/@GiovannyOrtegon" target="_blank">Giovanny Andrés Ortegon Espitia</a> for <a href="https://www.holbertonschool.com" target="_blank">Holberton School</a>.
+    </p>
+  </footer>
+  <!-- <script language=Javascript> open('legal.htm','AVISOLEGAL',"toolbar=0,location=0,status=0,menubar=0,scrollbars=yes,resizable=yes,width=490,height=232");</script> -->
+</body>
+
+</html>

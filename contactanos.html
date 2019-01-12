@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link type="text/css" rel="stylesheet" href="./css/style.css">
+  <title>Inicio</title>
+</head>
+
+<body>
+  <!-- Navegadpr -->
+  <nav class="navegacion">
+    <span class="lista"><strong>tecnoauge</strong></span>
+    <ul>
+      <li><a class="secundario" href="index.html">Inicio</a></li>
+      <li><a class="secundario" href="nosotros.html">Nosotros</a></li>
+      <li><a class="active secundario" href="contactanos.html">Contáctanos</a></li>
+    </ul>
+  </nav>
+  <!-- Encabezado con logo y nombre empresarial -->
+  <header class="logo">
+    <div class="nombre-sitio">
+      <h1>Contáctanos</h1>
+    </div>
+  </header>
+  <div class="contenedor-principal">
+    <main class="caja-0">
+      <div class="articulos">
+        <!-- Formulario -->
+        <article class="articulo-1">
+          <fieldset>
+            <legend>
+              CONTCÁTANOS
+            </legend>
+            <div class="formulario">
+              <form action="/signup" method="post">
+                <p>
+                  <label>Tutulo</label><br>
+                  <label>
+                    <input type="radio" name="title" value="mr">
+                    Señor
+                  </label>
+                  <label>
+                    <input type="radio" name="title" value="mrs">
+                    Señora
+                  </label>
+                  <label>
+                    <input type="radio" name="title" value="Miss">
+                    Señorita
+                  </label>
+                </p>
+                <p>
+                  <label>Nombre</label><br>
+                  <input type="text" name="nombre" required>
+                </p>
+                <p>
+                  <label>Apellido</label><br>
+                  <input type="text" name="apellido" required>
+                </p>
+                <p>
+                  <label>Correo</label><br>
+                  <input type="email" name="correo" required>
+                </p>
+                <p>
+                  <label>Teléfono</label><br>
+                  <input type="tel" name="phone">
+                </p>
+                <p>
+                  <label>Ciudad</label><br>
+                  <select>
+                    <option>Argentina</option>
+                    <option>Brasil</option>
+                    <option>Chile</option>
+                    <option>China</option>
+                    <option>Colombia</option>
+                    <option>India</option>
+                    <option>Estádos Unidos</option>
+                  </select>
+                </p>
+                <p>
+                  <label>Escriba sus inquietudes</label><br>
+                  <textarea name="texto" row="10" cols="30" placeholder="Escriba aqui" required></textarea>
+                </p>
+                <p>
+                  <label>
+                    <input type="checkbox" value="terms" required>
+                    Acepto <a href="#">terminos y condiciones.</a>
+                  </label>
+                </p>
+                <p>
+                  <label>
+                    <input type="submit" value="Enviar">
+                  </label>
+                </p>
+              </form>
+            </div>
+          </fieldset>
+
+        </article>
+        <article class="articulo-2">
+          <!-- Comunícate -->
+          <fieldset>
+            <legend>
+              Comunícate con nosotros
+            </legend>
+            <div class="formulario">
+              <p>
+                <strong>Nombre del contacto: </strong>
+                Giovanny Ortegon
+              </p>
+              <p>
+                <strong>Teléfono: </strong>
+                312 578 96 53
+              </p>
+              <p>
+                <strong>Correo: </strong>
+                dasdasdasdad@contactanos.com
+              </p>
+            </div>
+          </fieldset>
+
+        </article>
+      </div>
+      <!-- Twttes del propietario -->
+      <aside class="twitter">
+        <a class="twitter-timeline" data-width="300" data-height="700" data-dnt="true" href="https://twitter.com/GiovannyOrtegon?ref_src=twsrc%5Etfw">Tweets by GiovannyOrtegon</a>
+        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+      </aside>
+    </main>
+  </div>
+  <!-- Píe de página -->
+  <footer>
+    <!-- Redes Sociales -->
+    <div class="redes-sociales">
+      <a href="https://twitter.com/GiovannyOrtegon?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @GiovannyOrtegon</a>
+      <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    </div>
+    <!-- Derechos de autor -->
+    <p>
+      Made by <a href="https://twitter.com/@GiovannyOrtegon" target="_blank">Giovanny Andrés Ortegon Espitia</a> for <a href="https://www.holbertonschool.com" target="_blank">Holberton School</a>.
+    </p>
+  </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,654 @@
+  body {
+    margin: 0;
+    font-family: verdana, serif, geneva;
+    font-size: 15px;
+  }
+
+  /* Encabezado */
+  header.logo {
+    height: 80vh;
+    width: auto;
+    margin-top: 50px;
+    background-origin: content-box;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-origin: content-box;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.3)), url(https://c.pxhere.com/images/14/51/b904264130fbea3137a8d1b415e8-1431119.jpg!d);
+  }
+
+  header.logo div {
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(20, 15, 13);
+  }
+
+  header.logo div h1 {
+    padding-top: 200px;
+    font-size: 3em;
+  }
+
+  @media only screen and (max-width: 1135px) {
+    main.contenedor article.logo-contactanos {
+      margin-top: 50px;
+    }
+
+    main.contenedor {
+      background-color: white !important;
+    }
+  }
+
+  @media only screen and (max-width: 880px) {}
+
+  /*Barra de navegacion*/
+  @media only screen and (max-width: 745px) {
+    nav.navegacion span.lista {
+      font-size: 1em;
+    }
+
+    nav.navegacion ul li a.secundario {
+      font-size: 0.9em;
+      padding: 15px 20px;
+    }
+  }
+
+  /* Media query para navegador */
+  @media only screen and (max-width: 632px) {
+    nav.navegacion {
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      padding: 0;
+      font-size: 1.1em;
+    }
+
+    nav.navegacion span.lista {
+      padding: 0;
+      margin: 0;
+      flex: auto;
+      font-size: 1.3em;
+    }
+
+    nav.navegacion:hover ul {
+      display: block;
+      content: '';
+      flex: auto;
+      float: none;
+      margin: 0;
+    }
+
+    nav.navegacion ul {
+      display: none;
+    }
+
+    nav.navegacion ul li {
+      padding: 10px 15px;
+    }
+
+    nav.navegacion ul li a {
+      font-size: 1.2em;
+    }
+
+    nav.navegacion ul li:hover {
+      padding: 10px;
+      margin: 0;
+      background-color: #212f3d;
+    }
+
+    nav.navegacion ul li a:hover {
+      margin: 0;
+      padding: 10px;
+      background-color: #212f3d;
+    }
+
+    header.logo div {
+      margin-top: 65px;
+    }
+
+    header.logo div h1 {
+      padding-top: 200px;
+    }
+
+    main.contenedor article.logo-contactanos {
+      margin-top: 50px;
+    }
+
+    main.contenedor {
+      background-color: white !important;
+    }
+  }
+
+  @media only screen and (max-width: 525px) {}
+
+  .navegacion {
+    display: inline-block;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgba(28, 31, 31, 0.9);
+    padding: 15px 0;
+  }
+
+  nav.navegacion span.lista {
+    text-transform: uppercase;
+    color: #f2fefe;
+    padding: 20px;
+    font-size: 1.3em !important;
+  }
+
+  nav ul {
+    display: inline-flex;
+    text-transform: uppercase;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    float: right;
+  }
+
+  nav ul li a.secundario {
+    text-decoration: none;
+    color: #f2fefe;
+    padding: 15px 30px;
+    font-size: 1em;
+  }
+
+  nav ul li a:hover {
+    background-color: #212f3d;
+    border-radius: 3px;
+  }
+
+  /* main / aside */
+  div main div.contenedor-2 {
+    background-color: #fdfefe;
+    margin: 0px;
+    border-radius: 5px;
+  }
+
+  main div article div {
+    padding: 10px 40px;
+    background-color: #fdfefe;
+    margin-top: 15px;
+    border-radius: 3px;
+    text-align: justify;
+  }
+
+  main.contenedor {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(241, 241, 242);
+  }
+
+  article.contenedor-1 {
+    flex: auto;
+    margin: 0px;
+    height: 80vh;
+    background-color: rgba(255, 255, 255);
+    padding-bottom: 30px;
+    width: auto;
+  }
+
+  article.contenedor-1 div h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2.3em;
+    color: #4e5b69;
+    padding-top: 30px;
+  }
+
+  article.contenedor-1 div p {
+    text-align: center;
+  }
+
+  article.contenedor-1 div p img {
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+  }
+
+  article.contenedor-1 div.boton {
+    text-align: center;
+  }
+
+  div.boton a {
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #f2f3f4;
+    padding: 18px;
+    background-color: rgb(148, 150, 150);
+    color: #f2f3f4;
+  }
+
+  div.boton a:hover {
+    background-color: rgb(178, 179, 179);
+    color: #f2f3f4;
+  }
+
+  article div {
+    padding: 30px;
+    text-align: justify;
+  }
+
+  article.logo-contactanos {
+    height: 80vh;
+    width: auto;
+    background-origin: content-box;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-origin: content-box;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.3)), url(https://icdn7.digitaltrends.com/image/digitaltrends_es/programas-gratuitos-de-grabacion-de-musica-head-720x720.jpg);
+  }
+
+  article.logo-contactanos div {
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+  }
+
+  article.logo-contactanos div h1 {
+    padding-top: 10%;
+    font-size: 2.3em;
+  }
+
+  article.logo-contactanos div div.boton a {
+    background-color: rgb(94, 86, 91);
+    border-color: rgb(94, 86, 91);
+  }
+
+  article.logo-contactanos div div.boton a:hover {
+    background-color: rgb(108, 101, 106);
+  }
+
+  aside.contenedor-2 {
+    flex: auto;
+    height: 80vh;
+    background-color: white;
+  }
+
+  aside.contenedor-2 h2 {
+    text-align: center;
+    color: #3d454d;
+    text-transform: uppercase;
+    font-size: 2.3em;
+    padding: 40px 0 30px;
+    margin: 25px 0 20px;
+  }
+
+  aside.contenedor-2 div.servicios {
+    display: flex;
+    flex-direction: row;
+  }
+
+  aside.contenedor-2 div.servicios div {
+    flex: auto;
+  }
+
+  aside div.servicios div img {
+    width: 60%;
+    height: 60%;
+    border-radius: 5px;
+    margin: 40px 40px;
+  }
+
+  aside.contenedor-2 div.servicios div div {
+    margin: 16px 0 0;
+    padding: 0;
+    border-style: none;
+    height: 200px;
+  }
+
+  aside.contenedor-2 div.servicios div h3 {
+    padding-top: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+  }
+
+  aside div.servicios div {
+    margin: 0 25px;
+    padding: 30px 20px 20px;
+    border-radius: 5px;
+    padding-bottom: 30px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(182, 182, 182);
+  }
+
+  aside div.servicios div.servicio-1 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+      url(https://png.pngtree.com/element_origin_min_pic/16/09/15/1157da13bb7dad6.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    background-size: contain;
+    width: 80%;
+  }
+
+  aside div.servicios div.servicio-2 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+      url(https://png.pngtree.com/element_origin_min_pic/16/11/15/6876a61cb68c43f112f98bbddc644da5.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    background-size: contain;
+    width: 80%;
+  }
+
+  aside div.servicios div.servicio-3 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+      url(https://us.123rf.com/450wm/iconicbestiary/iconicbestiary1612/iconicbestiary161200142/67653088-stock-vector-professional-programmer-working-writing-code-at-his-big-desk-with-multiple-displays-and-laptop-compu.jpg?ver=6);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    background-size: contain;
+    width: 80%;
+  }
+
+  aside div.servicios div div {
+    border-style: none;
+    /* text-align: center; */
+  }
+
+  aside div.servicios div:hover {
+    transition: 2s;
+  }
+
+  aside div.servicios div p {
+    text-transform: uppercase;
+    font-size: 0.9em;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+  }
+
+  @media only screen and (max-width: 1100px) {
+    aside.contenedor-2 div.servicios {
+      margin: 0;
+    }
+
+    aside.contenedor-2 div.servicios {
+      margin: 0;
+    }
+  }
+
+  /* Media query 880pixeles */
+  @media only screen and (max-width: 880px) {
+    main.contenedor {
+      display: flex;
+      flex-direction: column;
+    }
+
+    main.contenedor div.contenedor-2 {
+      background-color: rgba(255, 255, 255, 0.5);
+    }
+
+    article.contenedor-1 {
+      flex: 1 1 auto;
+      margin: 0px;
+      height: 80vh;
+      padding-bottom: 30px;
+    }
+
+    article div {
+      padding: 30px;
+      text-align: justify;
+    }
+
+    article.logo-contactanos div h1 {
+      padding-top: 20%
+    }
+
+    aside.contenedor-2 {
+      flex: 1 1 auto;
+      margin: 0;
+      height: auto;
+    }
+
+    aside.contenedor-2 div.servicios {
+      display: flex;
+      flex-direction: column;
+      margin-top: 25px;
+    }
+
+    aside div.servicios div {
+      flex: auto;
+      margin: 25px 60px;
+      padding: 30px 20px 20px;
+      border-radius: 5px;
+    }
+  }
+
+  footer {
+    background-color: rgba(28, 31, 31, 0.9);
+    padding: 20px;
+    margin: 0;
+    text-align: center;
+    color: #f2f3f4;
+    font-size: 0.7em;
+    display: flex;
+    flex-direction: column;
+  }
+
+  footer div, p {
+    padding: 5px;
+    margin: 0;
+    flex: auto;
+  }
+
+  footer p a {
+    text-decoration: none;
+    color: white;
+  }
+
+  footer div.disqus {
+    margin: 0;
+    padding: 0;
+    padding-top: 10px;
+    display: inline-block;
+  }
+
+  /* contactanos.html */
+  main div article div.formulario {
+    padding: 10px 25px;
+  }
+
+  fielset label, p {
+    color: #4e5b69;
+  }
+
+  fieldset legend {
+    color: #4e5b69;
+    text-transform: uppercase !important;
+    font-size: 1.8em;
+  }
+
+  main {
+    display: flex;
+    flex-direction: row;
+  }
+
+  main div.articulos {
+    width: 80%;
+    flex: auto;
+    margin: 30px;
+  }
+
+  main div.articulos article fieldset div {
+    margin: 0;
+  }
+
+  main div.articulos article.articulo-1, article.articulo-2 {
+    margin: 30px 0 50px;
+  }
+
+  aside.twitter {
+    width: 20%;
+    text-align: center;
+    flex: auto;
+    margin: 40px 20px 20px;
+    padding: 10px;
+  }
+
+  @media only screen and (max-width: 900px) {
+    aside.twitter {
+      display: none;
+    }
+  }
+
+  @media only screen and (max-width: 450px) {
+    main div.articulos {
+      margin: 10px 15px;
+    }
+
+    main div article div.formulario {
+      padding: 10px 25px;
+    }
+  }
+
+  /* nosotros */
+  article.nosotros {
+    height: auto;
+    background-color: rgb(217, 217, 217);
+    padding: 0;
+  }
+
+  article.nosotros p {
+    text-align: justify !important;
+    padding-right: 25px;
+    margin-top: 0;
+  }
+
+  article.nosotros div div {
+    margin: 10px;
+  }
+
+  article.nosotros div.historia {
+    margin: 0;
+    padding: 30px 30px 70px;
+    height: 60vh;
+    background-color: white;
+  }
+
+  article.nosotros div.historia div img {
+    text-align: center;
+    float: left;
+    padding: 0;
+    boder-radius: 5px;
+  }
+
+  article.nosotros div h2 {
+    padding-top: 50px;
+    text-transform: uppercase;
+    color: #4e5b69;
+  }
+
+  article.nosotros div.vision h2 {
+    text-align: right;
+    padding-right: 25px;
+  }
+
+  article.nosotros div.historia h1 {
+    margin: 0;
+    padding-bottom: 30px;
+  }
+
+  article.nosotros div.historia div img {
+    width: 25%;
+    height: 250px;
+    border-radius: 5px;
+    padding: 0 60px 0 15px;
+  }
+
+  article.nosotros div.mision {
+    margin: 0;
+    padding: 0 50px 50px;
+    height: 60vh;
+    background-color: rgb(217, 217, 217);
+  }
+
+  article.nosotros div.mision div img {
+    float: right;
+    width: 25%;
+    height: 200px;
+    padding-left: 60px;
+    border-radius: 5px;
+  }
+
+  article.nosotros div.vision {
+    margin: 0;
+    padding: 0 50px 50px;
+    height: 60vh;
+    background-color: white;
+  }
+
+  article.nosotros div.vision div img {
+    float: left;
+    width: 25%;
+    height: 225px;
+    padding-right: 60px;
+    border-radius: 5px;
+  }
+
+  @media only screen and (max-width: 750px) {
+    article.nosotros div {
+      padding: 50px !important;
+      height: auto !important;
+    }
+
+    article.nosotros div div {
+      border: rgb(167, 159, 155);
+      border-style: solid;
+      border-radius: 5px;
+      border-width: 1px;
+    }
+
+    article.nosotros div.mision div {
+      border: #ffff;
+      border-style: solid;
+      border-radius: 5px;
+      border-width: 1px;
+    }
+
+    article.nosotros div div h2 {
+      padding: 0;
+      text-align: center;
+      text-transform: uppercase;
+      color: #4e5b69;
+    }
+
+    article.nosotros div.vision h2 {
+      text-align: center;
+    }
+
+    article.nosotros div div p {
+      padding: 0;
+      color: #4e5b69;
+    }
+
+    article.nosotros div.historia img {
+      display: none;
+    }
+
+    article.nosotros div.mision img {
+      display: none;
+    }
+
+    article.nosotros div.vision img {
+      display: none;
+    }
+
+    aside div.servicios div {
+      margin: 25px 50px;
+    }
+  }
+
+  @media only screen and (max-width: 650px) {
+    aside div.servicios div {
+      margin: 25px 30px;
+    }
